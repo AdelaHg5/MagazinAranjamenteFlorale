@@ -1,5 +1,5 @@
 html {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 @media (min-width: 768px) {
@@ -19,8 +19,8 @@ body {
     background-size: cover;
 }
 
-nav{
-    background-color:#DCB239;
+nav {
+    background-color: #f365c6;
 }
 
 tr {
@@ -29,7 +29,7 @@ tr {
 
     tr a {
         color: #ffffed;
-        background-color: #752f22;
+        background-color: #f365c6;
         padding: 3px 7px;
         text-decoration: none;
     }
@@ -41,11 +41,11 @@ tr {
 
 .add-customer a, small {
     font-size: 12px;
-    color: #752f22;
+    color: #f365c6;
 }
 
 .btn-primary {
-    background-color: #752f22 ;
+    background-color: #f365c6;
     width: 100%;
     border: none;
 }

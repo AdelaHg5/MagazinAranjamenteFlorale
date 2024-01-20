@@ -26,6 +26,7 @@ namespace MagazinAranjamenteFlorale.Pages.Customers
             if (_context.Customer != null)
             {
                 Customer = await _context.Customer.ToListAsync();
+
             }
         }
     }

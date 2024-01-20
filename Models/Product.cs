@@ -21,6 +21,6 @@ namespace MagazinAranjamenteFlorale.Models
         public int Stock { get; set; }
 
         
-        public ICollection<OrderProduct>? OrderProducts { get; set; }
+        public ICollection<OrderProduct>? OrderProducts { get; set; } //relatie one to many dintre product si order product
     }
 }
